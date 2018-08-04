@@ -1,0 +1,23 @@
+{
+  "name": "visualize-sortings",
+  "version": "1.0.0",
+  "author": "dashdotdawn <dawn.zhangsc@gmail.com>",
+  "scripts": {
+    "start": "webpack-dev-server --open --hot --mode=production",
+    "build": "webpack -p"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "dependencies": {
+    "minireset.css": "^0.0.3"
+  }
+}
