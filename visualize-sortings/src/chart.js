@@ -57,14 +57,15 @@ export default class BarChart {
   _generateBar(data, color) {
     var bars = []
     let len = data.length
-    let perBar = +(this.axisX / len).toFixed(2)
-    let gutter = +(perBar / 1.4 * 0.2).toFixed(2)
-    let bar = perBar - gutter * 2
+    let perBar = this.axisX / len
+    let gutter = perBar / 1.4 * 0.2
+    let bar = +(perBar - gutter * 2).toFixed(0)
 
     for (let i = 0; i < len; i++) {
-      let h = this.unitY * data[i]
-      let y = this.paddingY + this.axisY - h
-      let x = this.paddingX + gutter + i * perBar
+      // 避免半像素渲染造成模糊
+      let h = +(this.unitY * data[i]).toFixed(0)
+      let y = +(this.paddingY + this.axisY - h).toFixed(0)
+      let x = +(this.paddingX + gutter + i * perBar).toFixed(0)
       let b = new Bar(x, y, bar, h, color)
       bars.push(b)
     }
