@@ -1,3 +1,3 @@
 # cube
 
-> demo: <https://dashdotdawn.github.io/animations/cube/dist/>
+> [demo](https://dashdotdawn.github.io/animations/cube/dist/)
