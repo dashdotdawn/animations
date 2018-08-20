@@ -1,12 +1,14 @@
 # low-poly
 
-> [demo](https://dashdotdawn.github.io/animations/low-poly/dist/)
+> [demo](https://dashdotdawn.github.io/animations/low-poly/dist/index.html)
 
 TODO:
 
 - fix static img url `emerg`
 - rerender button
 - show in process or done
+- add granularity control
+- add laplace render method
 - [dat.guit](https://github.com/dataarts/dat.gui)
 
 

@@ -1,6 +1,7 @@
 import 'minireset.css'
 import './style.css'
 import LowPoly from './lowpoly'
+import Rose from './rose.jpg'
 
 var canvas = document.getElementById('canvas')
 canvas.width = window.innerWidth
@@ -9,8 +10,7 @@ canvas.height = window.innerHeight
 var reader = new FileReader()
 var image = new Image()
 var lowpolyImage
-image.src = './src/rose.jpg'
-
+image.src = Rose
 
 var resize = function() {
   canvas.width = window.innerWidth
