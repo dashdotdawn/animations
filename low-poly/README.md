@@ -4,13 +4,23 @@
 
 TODO:
 
-- fix static img url `emerg`
+- <del>fix static img url `emerg`<del>
 - rerender button
-- show in process or done
+- show is in process or done
 - add granularity control
 - add laplace render method
+- avoid empty pixels for download images
 - [dat.guit](https://github.com/dataarts/dat.gui)
 
+PREVIEW
+
+![](https://github.com/dashdotdawn/animations/raw/master/low-poly/static/render-effect-1.jpg)
+
+![](https://github.com/dashdotdawn/animations/raw/master/low-poly/static/render-effect-2.jpg)
+
+![](https://github.com/dashdotdawn/animations/raw/master/low-poly/static/render-effect-3.jpg)
+
+![](https://github.com/dashdotdawn/animations/raw/master/low-poly/static/render-effect-4.jpg)
 
 REFERENCE:
 
