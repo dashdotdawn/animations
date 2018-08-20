@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family: PingFang SC, Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', Arial, sans-serif;
+}
+body {
+  min-height: 100vh;
+  text-align: center;
+  background-image: linear-gradient(360deg, #1C1C1C 10%, #494949 360%);
+}
+
+#app {
+  font-size: 0;
+}
+#app .buttons {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 15px;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 20px 10px;
+}
+.buttons input,
+.buttons button {
+  display: block;
+}
+.buttons input {
+  margin-bottom: 10px;  
+}
