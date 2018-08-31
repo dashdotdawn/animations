@@ -11,7 +11,7 @@
 
 ## visualize-sortings
 
-看过 Algorithms(4th) Part1 后，使用 canvas 实现常见五种排序算法的可视化过程。
+看过 Algorithms(4th) Part1 后，使用 canvas 实现常见六种排序算法的可视化过程。
 
 [link](https://github.com/dashdotdawn/animations/tree/master/visualize-sortings)
 
